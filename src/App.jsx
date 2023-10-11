@@ -4,17 +4,18 @@ import Navbar from "./components/navbar/Navbar";
 const App = () => {
   return (
     <div>
-      <section>
+      <section id="خانه">
         <Navbar />
       </section>
-      <section>Parallax</section>
+      <section id="خدمات">Parallax</section>
       <section>services</section>
-      <section>Parallax</section>
+      <section id="پورتفلیو">Parallax</section>
       <section>Portfolio</section>
       <section>Portfolio</section>
       <section>Portfolio</section>
       <section>Portfolio</section>
-      <section>Contact</section>
+      <section id="تماس با من">Contact</section>
+      <section id="درباره من">About</section>
     </div>
   );
 };
