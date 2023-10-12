@@ -12,7 +12,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          سعید خسروی
+          SharpWit
         </motion.span>
         <div className="social">
           <a href="#">

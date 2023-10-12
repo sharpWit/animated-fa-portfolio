@@ -1,0 +1,81 @@
+.hero {
+  height: calc(100vh - 100px);
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  position: relative;
+
+  .wrapper {
+    max-width: 1366px;
+    padding-right: 4rem;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    .textContainer {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+
+      h2 {
+        font-family: "iranyekan";
+        font-size: 3em;
+        font-weight: 700;
+        color: rebeccapurple;
+      }
+
+      h1 {
+        font-size: 4.4em;
+      }
+
+      .buttons {
+        button {
+          font-family: "iranyekan";
+          padding: 20px;
+          border: 1px solid white;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          margin-right: 1rem;
+          cursor: pointer;
+          font-weight: 400;
+        }
+      }
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+  .slidingTextContainer {
+    // font-family: "Sahel";
+    position: absolute;
+    font-size: 40vh;
+    bottom: -80px;
+    white-space: nowrap;
+    color: #181834;
+    width: 50%;
+    font-weight: 700;
+    z-index: 1;
+  }
+
+  .imageContainer {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    .heroGuy {
+      width: fit-content;
+      height: 100%;
+    }
+  }
+}
