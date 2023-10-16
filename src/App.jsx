@@ -1,4 +1,5 @@
 import "./app.scss";
+import Cursor from "./components/cursor/Cursor";
 import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
@@ -9,27 +10,29 @@ import Services from "./components/services/Services";
 const App = () => {
   return (
     <div>
+      <Cursor />
+
       <section id="خانه">
         <Navbar />
         <Hero />
       </section>
 
-      <section id="خدمات">
+      {/* <section id="خدمات">
         <Parallax type="services" />
-      </section>
+      </section> */}
 
-      <section>
+      {/* <section>
         <Services />
-      </section>
+      </section> */}
 
-      <section id="پورتفلیو">
+      {/* <section id="پورتفلیو">
         <Parallax type="portfolio" />
       </section>
-      <Portfolio />
+      <Portfolio /> */}
 
-      <section id="تماس با من">
+      {/* <section id="تماس با من">
         <Contact />
-      </section>
+      </section> */}
     </div>
   );
 };
