@@ -17,22 +17,22 @@ const App = () => {
         <Hero />
       </section>
 
-      {/* <section id="خدمات">
+      <section id="خدمات">
         <Parallax type="services" />
-      </section> */}
+      </section>
 
-      {/* <section>
+      <section>
         <Services />
-      </section> */}
+      </section>
 
-      {/* <section id="پورتفلیو">
+      <section id="پورتفلیو">
         <Parallax type="portfolio" />
       </section>
-      <Portfolio /> */}
+      <Portfolio />
 
-      {/* <section id="تماس با من">
+      <section id="تماس با من">
         <Contact />
-      </section> */}
+      </section>
     </div>
   );
 };
